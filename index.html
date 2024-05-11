@@ -91,3 +91,97 @@
   </script>
 </body>
 </html>
+<style>
+  .App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.Section {
+  padding: 50px 0;
+}
+
+.Section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ImageGrid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ImageItem {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+.ImageItem img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.AboutContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.AboutContent img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.PortfolioGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.PortfolioItem {
+  text-align: center;
+}
+
+.PortfolioItem img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+</style>
